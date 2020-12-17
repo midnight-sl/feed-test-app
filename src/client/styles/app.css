@@ -1,0 +1,21 @@
+html, #root {
+ height: 100%; 
+}
+
+body {
+  height: 100%;
+  background-image: url(/public/background.jpg);
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.page {
+  height: 100%;
+  display: flex;
+}
+
+.page.proceed , .page.login {
+  justify-content: center;
+  align-items: center;
+}
